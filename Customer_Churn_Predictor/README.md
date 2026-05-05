@@ -54,11 +54,11 @@ Target variable:
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project
 
 ---
 
-## ✅ Step 1: Install dependencies
+## Step 1: Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Step 2: Train the model
+## Step 2: Train the model
 
 Run the training script to train and save the model:
 
@@ -89,7 +89,7 @@ models/model.pkl
 
 ---
 
-## 🔮 Step 3: Make predictions
+## Step 3: Make predictions
 
 Run prediction script:
 
@@ -118,7 +118,7 @@ Churn Prediction: 1
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 The model is evaluated using:
 
