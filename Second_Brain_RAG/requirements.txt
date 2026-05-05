@@ -1,0 +1,15 @@
+# Core AI & Logic
+langchain>=0.3.0
+langchain-classic
+langchain-openai
+langchain-community
+
+# Data Handling & Vector DB
+chromadb
+pypdf
+tiktoken
+
+# Infrastructure & Connection
+python-dotenv
+httpx              # Necessary for our custom SSL bypass
+certifi            # Ensures up-to-date security certificates
