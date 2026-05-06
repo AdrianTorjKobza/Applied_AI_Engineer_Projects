@@ -1,0 +1,8 @@
+streamlit
+httpx
+requests
+urllib3
+python-dotenv
+youtube-transcript-api
+langchain-core
+langchain-groq
