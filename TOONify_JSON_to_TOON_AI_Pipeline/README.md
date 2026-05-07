@@ -6,7 +6,7 @@
 ![AI](https://img.shields.io/badge/focus-Applied%20AI-purple)
 ![Tokens](https://img.shields.io/badge/token%20reduction-30--60%25-orange)
 
-📉 Reduce LLM token costs by up to **40%** with smarter data formatting.
+📉 Reduce LLM token costs by up to **60%** using TOON, an AI friendly data structure.
 
 ---
 
