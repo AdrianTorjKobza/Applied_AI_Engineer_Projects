@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "role": "Data Scientist",
+    "department": "AI Research",
+    "location": "Dubai",
+    "experience_years": 5,
+    "salary_band": "A"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "role": "Machine Learning Engineer",
+    "department": "AI Research",
+    "location": "Abu Dhabi",
+    "experience_years": 3,
+    "salary_band": "B"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "role": "AI Engineer",
+    "department": "Product AI",
+    "location": "Dubai",
+    "experience_years": 4,
+    "salary_band": "A"
+  },
+  {
+    "id": 4,
+    "name": "Diana",
+    "role": "Data Engineer",
+    "department": "Infrastructure",
+    "location": "Sharjah",
+    "experience_years": 6,
+    "salary_band": "B"
+  },
+  {
+    "id": 5,
+    "name": "Ethan",
+    "role": "Research Scientist",
+    "department": "AI Research",
+    "location": "Dubai",
+    "experience_years": 7,
+    "salary_band": "A"
+  }
+]
