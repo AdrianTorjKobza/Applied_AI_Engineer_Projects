@@ -1,0 +1,7 @@
+docling
+qdrant-client
+ollama
+gradio
+pandas
+pillow
+sentence-transformers
