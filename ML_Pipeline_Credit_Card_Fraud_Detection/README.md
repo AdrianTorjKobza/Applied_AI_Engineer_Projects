@@ -1,4 +1,4 @@
-# End-to-End ML Pipeline
+# ML Pipeline Credit Card Fraud Detection
 
 Machine Learning pipeline for financial fraud detection.
 
@@ -45,34 +45,19 @@ data/raw/
 
 ## Architecture
 
-Data Ingestion
-      ↓
-Preprocessing
-      ↓
-Training
-      ↓
-Evaluation
-      ↓
-MLflow Tracking
-      ↓
-Drift Detection
-      ↓
-Retraining Trigger
-      ↓
-FastAPI Inference
-
+- Data Ingestion -> Preprocessing -> Training -> Evaluation -> MLflow Tracking -> Drift Detection -> Retraining Trigger -> FastAPI Inference
 ---
 
 ## Setup and Execution
 - Clone repo
-- `cd ML_Pipeline_Credit_Card_Fraud_Detection
+- `cd ML_Pipeline_Credit_Card_Fraud_Detection`
 - Create Virtual Environment
-- Install Dependencies: `pip install -r requirements.txt
-- Run the ML pipeline: `python pipeline.py
-- Start MLflow UI: `mlflow ui
-- Open in browser: `http://localhost:5000
-- Start FastAPI server: `uvicorn src.serving.api:app --reload
-- Swagger UI: `http://localhost:8000/docs
-- Health endpoint: `http://localhost:8000/health
-- Running with Docker: `docker-compose up --build
-- Generated reports by Evidently AI: `artifacts/reports/drift_report.html
+- Install Dependencies: `pip install -r requirements.txt`
+- Run the ML pipeline: `python pipeline.py`
+- Start MLflow UI: `mlflow ui`
+- Open in browser: `http://localhost:5000`
+- Start FastAPI server: `uvicorn src.serving.api:app --reload`
+- Swagger UI: `http://localhost:8000/docs`
+- Health endpoint: `http://localhost:8000/health`
+- Running with Docker: `docker-compose up --build`
+- Generated reports by Evidently AI: `artifacts/reports/drift_report.html`
