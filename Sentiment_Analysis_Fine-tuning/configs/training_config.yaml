@@ -1,0 +1,33 @@
+# configs/training_config.yaml
+
+model:
+  name: "distilbert-base-uncased"
+  num_labels: 3
+  labels: ["negative", "neutral", "positive"]   # must be alphabetical for label2id
+
+data:
+  train_file: "data/train.jsonl"
+  val_file:   "data/val.jsonl"
+  test_file:  "data/test.jsonl"
+  max_length: 128          # tokens — reviews are short, 128 is plenty
+  # Samples per class (balanced). Total train = 3 * 300 = 900
+  samples_per_class:
+    train: 300
+    val:   50
+    test:  100
+
+training:
+  output_dir: "./checkpoints"
+  num_train_epochs: 4
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 32
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "linear"
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_f1"
+  logging_steps: 20
+  seed: 42

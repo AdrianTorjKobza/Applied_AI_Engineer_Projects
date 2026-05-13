@@ -1,0 +1,2165 @@
+{
+  "mode": "finetuned",
+  "model": "DistilBERT fine-tuned (./checkpoints/final)",
+  "n_samples": 300,
+  "accuracy": 0.76,
+  "f1_macro": 0.7603,
+  "avg_latency_ms": 28.1,
+  "classification_report": {
+    "negative": {
+      "precision": 0.81,
+      "recall": 0.81,
+      "f1-score": 0.81,
+      "support": 100.0
+    },
+    "neutral": {
+      "precision": 0.6764705882352942,
+      "recall": 0.69,
+      "f1-score": 0.6831683168316832,
+      "support": 100.0
+    },
+    "positive": {
+      "precision": 0.7959183673469388,
+      "recall": 0.78,
+      "f1-score": 0.7878787878787878,
+      "support": 100.0
+    },
+    "accuracy": 0.76,
+    "macro avg": {
+      "precision": 0.760796318527411,
+      "recall": 0.7600000000000001,
+      "f1-score": 0.7603490349034905,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.760796318527411,
+      "recall": 0.76,
+      "f1-score": 0.7603490349034904,
+      "support": 300.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      81,
+      16,
+      3
+    ],
+    [
+      14,
+      69,
+      17
+    ],
+    [
+      5,
+      17,
+      78
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "raw_predictions": [
+    {
+      "review": "Crazy about 8 Crazy Nights!. This movie is awesome. It is the perfect movie for the holiday season. I am absolutely crazy about Whitey, the old man referee in the movie. Elenore and Davey are also hil",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8851,
+      "latency_ms": 87.6
+    },
+    {
+      "review": "Awakening.. This book is a masterpiece of not only American literature, but of world literature. Reading this book was the experience that showed me what good literature is. This is easily in my top t",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9085,
+      "latency_ms": 22.9
+    },
+    {
+      "review": "One of her best in the Night World series!. Out of all L.J.Smiths works this is one of my most highly recommended. If you have read any other books in the Night World series you will have recognized A",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8153,
+      "latency_ms": 40.1
+    },
+    {
+      "review": "Creepy. Wow, what people will do behind jealousy and revenge - there are some doors you should not open, and if you do - be prepared for what you find behind it!",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.5007,
+      "latency_ms": 15.8
+    },
+    {
+      "review": "An old friend. This beautifully written novel in a gently used library copy now joins my little shelf of Unlimited Re-Reads reserved for just such special old friends as The Virginian, Until the Sun F",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8855,
+      "latency_ms": 40.4
+    },
+    {
+      "review": "Give this book to a your children.. Economics in One Lesson elucidates the basic principles of Economics in a simple, understandable language. If you are just starting out on economics, I would recomm",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8058,
+      "latency_ms": 40.9
+    },
+    {
+      "review": "An Old World change that's definitely wonderful. The Scarletti Curse is absolutely wonderful. Ms. Feehan once again created a lively well written work that stand far apart from her Dark series (which ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.876,
+      "latency_ms": 25.6
+    },
+    {
+      "review": "Excellent replacement. You'd think for such a high-end, costly \"entry-level\" laptop, buying a replacement part would be affodable. This isn't the case with the apple ibooks. The cords which seem prone",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.6222,
+      "latency_ms": 39.2
+    },
+    {
+      "review": "Great little surge protector. Great value for a surge protector. I've got 'em on lots of electronics (printers, phones, laptops) that don't need a full power strip or universal power supply (UPS). Ver",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8253,
+      "latency_ms": 20.7
+    },
+    {
+      "review": "Even Mommy has fun with this one!. My four year old daughter loves everything Barbie and loves the Rapunzel movie. This game is tons of fun, even for a 42 year old. We love playing it together. We lov",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.868,
+      "latency_ms": 23.3
+    },
+    {
+      "review": "Fun toy!. My 11 month old son received this for Christmas and he loves it. He loves to watch the animals pop up and make noises. It's fun to watch his face light up and hear him squeel with delight wh",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9023,
+      "latency_ms": 22.9
+    },
+    {
+      "review": "Must-Have for Children's Library. I ordered this book as part of a third grade curriculum for my son. These Everyman titles are really wonderful-- beautiful binding, heavy pages, amazing illustrations",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8869,
+      "latency_ms": 35.9
+    },
+    {
+      "review": "Best x-mas movies of all time: Top 10. A must have for your collection, It has both the original and the second version of it. Highly recommend, nothing better than getting warm around the holidays an",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.4765,
+      "latency_ms": 23.4
+    },
+    {
+      "review": "Great reference. The book was good. Kept my interest. In no way am I finished reading it. It isn't a book to read from front to back. The information on each herb is detailed. Great reference material",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8729,
+      "latency_ms": 24.1
+    },
+    {
+      "review": "entertaining, but not for everybody. Although, in a certain sense I did not like this movie - one thing that I did find that I did like was that it was entertaining. It's a daring movie that take a ra",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.7286,
+      "latency_ms": 43.2
+    },
+    {
+      "review": "iBook/Powerbook Power Adapter. So far so good. I have used power adapter since my Apple Adapter got a short in the cord. I have owned various Apple Laptops and almost all of the power adapters have ne",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7874,
+      "latency_ms": 29.0
+    },
+    {
+      "review": "Excellent - Very Useful. I find this book highly useful as a desktop reference for just about anything HTML/DHTML related. In addition, Powell does a great job of introducing topics that may be new to",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8883,
+      "latency_ms": 23.4
+    },
+    {
+      "review": "An Album I can't get enough of!. When I herd them for thr first time they blew my mind I love them and they lyrics , I just love listing to good music!",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.5288,
+      "latency_ms": 16.0
+    },
+    {
+      "review": "Squeem works well. I am pleased with this item. It would be helpful if it were slightly longer for my torso, but everyone is different of course.I wear it a lot and it has held up well. It is rubbery,",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7719,
+      "latency_ms": 27.8
+    },
+    {
+      "review": "Well-crafted music. Please do not categorize this band as they will elude any classification you attempt. That's the essence and beauty of music that's carefully woven and passionately performed.Dredg",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.727,
+      "latency_ms": 40.1
+    },
+    {
+      "review": "Such a deal!. I have had to replace my powerbook power cord twice already. Both times before I broke the bank by purchasing the cord from apple. Big mistake. Although steep in price those things are C",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.6912,
+      "latency_ms": 36.4
+    },
+    {
+      "review": "perfect. Got this so I could start performing again(drag queen)and have put on a few pounds around the mid area, I didn't want to lose the eaight because i would lose my rear but all I want to do was ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8297,
+      "latency_ms": 36.2
+    },
+    {
+      "review": "Best game ever. This games makes even amazing games like starcraft and warcraft redundant. Warhammer has it all and does it better than anyone else. Truly great game, total fun, great combat, graphics",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8611,
+      "latency_ms": 23.1
+    },
+    {
+      "review": "Best Album I Have Ever Heard. PERIOD !!!. Buy this album, and go ahead and buy el cielo as well. Both albums are near perfect, yet \"Catch Without Arms\" is closer to perfection. I saw dredg in Dallas, ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7019,
+      "latency_ms": 35.4
+    },
+    {
+      "review": "Excellent romance in an excellent edition. Hawthorne's best work is central to understanding the trajectory of american culture from the Puritans to the moderns. Still, many of the book's allusions wi",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8624,
+      "latency_ms": 25.4
+    },
+    {
+      "review": "voices from the farm. i have a copy of this book and love it and can't wait til the revised version comes out in a few weeks",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8505,
+      "latency_ms": 13.3
+    },
+    {
+      "review": "SAD. this book represents a time in the past of our country in which we should be ashamed. not only was this a time of \"witchcraft\" and witchunts, but the society was willing to ostracize a human bein",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.8108,
+      "latency_ms": 36.7
+    },
+    {
+      "review": "just what i was looking for. i do not use these for warming the food. i did try that once and it was just a pain. i purchased the bowls because they are divided and stick to the high chair. so they ar",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.4947,
+      "latency_ms": 25.0
+    },
+    {
+      "review": "Helpful in early pregnancy. I am using this pillow now and about to enter my second trimester. I find the pillow to be comfortable and useful in training myself to sleep on my side. I actually find th",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8563,
+      "latency_ms": 26.3
+    },
+    {
+      "review": "Book review. This is a book for all parents or parents to be, all people thinking of having children. Love and Logic is a program to help you be a more effect parent, raising responsible children. It ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9024,
+      "latency_ms": 22.0
+    },
+    {
+      "review": "Pretty Fricken Sweet. You know the movies, and if you're looking at this page, you probably love them. The bottom line is, you get 6 classic campy DVDs, in their own cases, for a good price. Some of t",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.5817,
+      "latency_ms": 36.1
+    },
+    {
+      "review": "Daughters of Darkness-THE BEST. I've read all of L.J Smiths books up until TheHuntress,which of course isn't out yet,and Ihave to say, that Daughters of Darkness wasprobably the best Night World so fa",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9052,
+      "latency_ms": 29.5
+    },
+    {
+      "review": "great movie, movie is longer than 2hours. this is a great movie its not 40yr old virgin funny or knocked up funny but its a pretty good movie alot of famous ppl in it has alot of good funny parts 2 it",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.5219,
+      "latency_ms": 35.3
+    },
+    {
+      "review": "Curve. It smells like Gap heaven, Very nice. Beautiful color and scent! Can't wait to try Curve Crush when i'm done with this one.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.883,
+      "latency_ms": 14.8
+    },
+    {
+      "review": "NOT the worst American B-Movie. This movie was a horror film thhat displayed an effort to steer clear of typical horror movie dialogue and pacing. There are no blonde girls and the girls that are here",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5776,
+      "latency_ms": 27.8
+    },
+    {
+      "review": "good artwork too!. The review with all the details about the depth and levels of the story hits the mark so I won't repeat it. However, I will emphasize what was not commented on. The Author is a very",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7767,
+      "latency_ms": 44.2
+    },
+    {
+      "review": "A classic novel with a contemporary message. Hawthorne's masterpiece is beautifully written and skillfully constructed. It's message is subtle, yet pervasive: that people we punish as \"sinners\" are of",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8881,
+      "latency_ms": 36.0
+    },
+    {
+      "review": "What more do I need?. Price and function are two of the main reasons I now own this camcorder. I have webtv so I can capture all of the stills I need and do it quite easily and without software and a ",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.6334,
+      "latency_ms": 42.1
+    },
+    {
+      "review": "Good movie. This is a classic and always good. I used it for my students in class as Charlie Brown never goes out of style.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8609,
+      "latency_ms": 14.3
+    },
+    {
+      "review": "They need more stars.... We can only hope more classics as precious and timeless as this are in our future. A must see every Christmas.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9003,
+      "latency_ms": 17.1
+    },
+    {
+      "review": "MORE THAN LETTERS.... I admit that I bought this album for the title track alone. After all, had that been the only good track on this CD I still would have felt that it was worth my money.But the tit",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.6923,
+      "latency_ms": 52.4
+    },
+    {
+      "review": "Works like a charm. The only feature missing from the Apple version of this is the light in the plug tip that confirms it is seated well and shows the charging status. I can live without it for the $7",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7271,
+      "latency_ms": 17.8
+    },
+    {
+      "review": "Great show, but no need for blu-ray. I bought this show in the blu-ray edition expecting an incredible picture, but there was nothing special about it at all. The extras are nice but not what I buy DV",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.6686,
+      "latency_ms": 43.9
+    },
+    {
+      "review": "James Moody takes San Diego \"Beyond the Border\"!. James Moody, and his well known \"cast of characters\" have put together an awsome sample of what can be done when you think everything else has already",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.4795,
+      "latency_ms": 52.9
+    },
+    {
+      "review": "Makes you not want to sleep at night...... This is about a kid who, when asleep, unleashes something horrific. part two of the night warriors, it is a brilliantly done novell and i recommend this to a",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8855,
+      "latency_ms": 37.5
+    },
+    {
+      "review": "Hawthorne's Masterpiece. Hawthorne's Scarlet Letter is a tale of secret love, adultery, and sadness. Every person should read this timeless American novel at some point in their life. The strength of ",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.3875,
+      "latency_ms": 47.9
+    },
+    {
+      "review": "From The Label:. From Memphis, TN. comes The Reatards, fronted, of course, by wild kid Jay Reatard. He starting off on Eric Oblivians label, Goner, at the tender age of 15. Jay, now 19, is still rocki",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.49,
+      "latency_ms": 41.5
+    },
+    {
+      "review": "Good book. Well written chronicles of The Farm from the people who lived it. Excellent photos as well.I kept looking for a photo of me and my then-wife, but I wasn't there long enough. But shewas :-)",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.857,
+      "latency_ms": 24.7
+    },
+    {
+      "review": "yo ho ho. arrr matey yer not gonna sail the seven seas without this are ye? this flag will stand up to yer most extreme swashbuckling",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.4307,
+      "latency_ms": 15.8
+    },
+    {
+      "review": "Plug it in and it works!. Pull the battery saver tab, plug the unit into the wall and plug-in the device you want to control and everything works! I tried it from 25 feet away and through one wall and",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.4936,
+      "latency_ms": 23.2
+    },
+    {
+      "review": "Decent book, but definately not Hanry David Theraou. It was a good book to read given that is a classical in American literature but I much rather like Theraou's book Walden.",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.792,
+      "latency_ms": 20.7
+    },
+    {
+      "review": "The Rabbi's Cat is the cat's meow!. This book came highly recommended to me by my Rabbi's husband. I was not disappointed! I think everyone will love this illustrated novel.Jorma",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8651,
+      "latency_ms": 20.4
+    },
+    {
+      "review": "good. this book seemed to take awhile to get to me but it still came within the specified time frame so, all's well I guess, and the condition of the book was quite acceptable.",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.6567,
+      "latency_ms": 18.2
+    },
+    {
+      "review": "Incredibly engrossing. I absolutely loved this book, it was so engrossing, could not put it down. Hawthorne has wonderful descriptions, it is a fascinating time in history and he brings it alive. A fl",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9056,
+      "latency_ms": 18.8
+    },
+    {
+      "review": "God's Zoo. Wonderful video, very comical and loved by kids, also teaches some good Biblical truths and good gospel songs.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.879,
+      "latency_ms": 14.8
+    },
+    {
+      "review": "The ending was great!. The most unusual story of a young man facing life with a handicap. I felt like a cheerleader and prayed that he could overcome. I could hardly wait to reach the end of the book.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8884,
+      "latency_ms": 23.5
+    },
+    {
+      "review": "Thank you for Releasing it!!!!!. I loved this movie as a kid and I am so happy the powers that be have decided to release it finally! If you want to see a great 80's movie, this is it!",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8971,
+      "latency_ms": 22.2
+    },
+    {
+      "review": "Intelligently written; a fast and suspenseful read.. I am on my 8th Scarpetta story. I most enjoy the relationships Cornwell develops.....Marino's gruff demeanor and language are so colorful...Dr. Kay",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8251,
+      "latency_ms": 36.7
+    },
+    {
+      "review": "My Henry. I had Henry back in the 70's. I don't remember him with a nose since it was chewed off, but he was well loved. He's long gone and I thought I was the only one who ever had a Henry since nobo",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.3528,
+      "latency_ms": 38.2
+    },
+    {
+      "review": "AMAZING. I waited a while before I reviewed so that I could give a GOOD review and this works amazing, trust me you need to get used to it but you WILL and please buy according to size chart it does s",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8431,
+      "latency_ms": 27.9
+    },
+    {
+      "review": "Love This Item. I have four squeem shapewear items and i love them all. I do suggest finding your correct size, not the size you think you are. The terry cloth lining absorbs all wetness and i do see ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8819,
+      "latency_ms": 25.0
+    },
+    {
+      "review": "Brain based Learning. This is a text book I ordered for my classes for teacher certification. This book is very easy to read, and I am really enjoying it. It presents info and then at the end of a sec",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.4693,
+      "latency_ms": 33.3
+    },
+    {
+      "review": "Good but received defective book. I bought this book because we are moving to Germany and I wanted to get a good overview of all the countries in Europe that we could travel too. Unfortunately pages 4",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.7046,
+      "latency_ms": 25.9
+    },
+    {
+      "review": "Short book explaining Love and Logic. At first I was disappointed that this wasn't a longer book, but then I realized that it is great to give away to curious friends and parents as an introduction to",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8541,
+      "latency_ms": 21.2
+    },
+    {
+      "review": "My favorite classic. Anybody who enjoys a book should read and keep The Scarlet Letter in their library. It's a classic, must-own for anybody that values the concept of reading. And if you didn't like",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9025,
+      "latency_ms": 23.3
+    },
+    {
+      "review": "Cruel and Unusual. The book was excellent. I was barely able to put it down. I love the Kay Scarpetta series and am excited when I get to read more.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.884,
+      "latency_ms": 14.0
+    },
+    {
+      "review": "Very inspirational. So I just watched Funny People. For a movie that has an all star cast, it was a great movie. If you want to see a movie filled with laughs and a good story pick this movie up. I pr",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8834,
+      "latency_ms": 20.3
+    },
+    {
+      "review": "DDR is cooool!. This cd is really great.BUT ITS NOT A GAME!they're not long versons though, only 90 odd seconds each.If that Claire, also from the UK (who was disappointed with the cd) wants to get in",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.7945,
+      "latency_ms": 33.7
+    },
+    {
+      "review": "Terror in Central Park. Here is a terrifying novel by Cornwell. Her knowledge of medicine and forensic science keeps you turning the page. A woman's body is found in the snow in Central Park. There is",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7889,
+      "latency_ms": 28.9
+    },
+    {
+      "review": "Macally Macintosh Powerbook adapter. I have purchased three of these adapters and they work well. They will charge a G4 Powerbook while the unit is running. All 3 have worked without problem (sometime",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.482,
+      "latency_ms": 29.9
+    },
+    {
+      "review": "MaC POWER Adapter. Works fine on the PowerBook G4. Doesn't have an LED to tell you it's on and, of course, doesn't have a smart plug to show charging status.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.5741,
+      "latency_ms": 16.8
+    },
+    {
+      "review": "Solid Addition to the Series. Like the ones before, this book is a solid forensic and police procedural. A death row inmate is executed and his fingerprint later shows up in a current crime scene. How",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7557,
+      "latency_ms": 41.9
+    },
+    {
+      "review": "Author Shows Vision. Jeff's book \"Our Brown-Eyed Boy\" will stand the test of time. Although it has some minor editing problems, the content has character and vision. This parent's insights will be res",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8906,
+      "latency_ms": 34.7
+    },
+    {
+      "review": "I'm hooked and I want some more .... I've only read up to Soulmate of the Night World series, but sofar Ihappen to be in agreement with almost all the other reviewers: Ash is my favourite male charact",
+      "true": "positive",
+      "pred": "neutral",
+      "confidence": 0.6249,
+      "latency_ms": 38.0
+    },
+    {
+      "review": "Makes for fascinating reading.. Whale naturalist and animal communicator Mary Getten goes beyond what other research has achieved in the way of whale study and communication processes: in 1991 she stu",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8831,
+      "latency_ms": 26.4
+    },
+    {
+      "review": "A Charlie Brown Christmas. What can I say that hasn't been said already? This is a classic....My 4 yr old granddaughter saw it for the first time and fell in love with Snoopy.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9017,
+      "latency_ms": 14.3
+    },
+    {
+      "review": "Great. Well paced novel with interesting characters and plenty of plot twists. Patricia Cornwell writes characters that are real and have depth. Her mastery of criminal science is wonderful and offers",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8458,
+      "latency_ms": 13.7
+    },
+    {
+      "review": "Great Value. This charger is much sturdier than the mac version (which my cat chewed through in a matter of days). I'd read another review that said this adapter didn't work on the aluminum PowerBooks",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7987,
+      "latency_ms": 30.7
+    },
+    {
+      "review": "return to forever proto-type. Three musicians out of five on this effort formed Return to Forever, so you can imagine a strong resemblance to the ECM first album. I always loved Corea with Farrell, be",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.726,
+      "latency_ms": 33.9
+    },
+    {
+      "review": "mask maker. It was good horrifying never a dull moment u can watch and not be bored ir wondering when is a good part coming",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.782,
+      "latency_ms": 11.7
+    },
+    {
+      "review": "It's not Christmas without Charlie Brown. Well let me tell you I am a big fan of A Charlie Brown Christmas! It just puts you in such a good mood! Charlie Brown the loser we all love to love teaches us",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7788,
+      "latency_ms": 32.6
+    },
+    {
+      "review": "Great CD. I would definitely recommend Catch Without Arms to anyone that is a fan of alternative music. Some of my favorites are: Catch Without Arms, Zebraskin, and Hungover on a Tuesday. You owe it t",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8727,
+      "latency_ms": 20.3
+    },
+    {
+      "review": "Remember, Pull Your Jaw Off The Floor After Hearing it. If you've played the game, you know how divine the music is! Every single song tells a story of the game, it's that good! The greatest songs are",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8089,
+      "latency_ms": 35.4
+    },
+    {
+      "review": "Something I'll Never Grow Tired Of!!. For years and years, I always had to watch A Charlie Brown Christmas on broadcast television. I could never miss it! I finally missed it this year, and had to buy",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8667,
+      "latency_ms": 32.0
+    },
+    {
+      "review": "Good place to start Web development. It is a great book for all new arrivals to the Web development and design world. The book's title doesn't indicate the real content, it is not just HTML, it is an ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9031,
+      "latency_ms": 27.7
+    },
+    {
+      "review": "Wonderful classic. I enjoy this book very much. It is a timely classic with which I am happy to now have my own copy.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8961,
+      "latency_ms": 10.2
+    },
+    {
+      "review": "Egbert is such a wonderful name. After years of searching, which ended with a 400 or so page photocopied version with missing pages, I found this book. This book is the only in depth and detailed engl",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8413,
+      "latency_ms": 31.9
+    },
+    {
+      "review": "It was great!!!. I like it. It was very cool to read about vampires and other legendary cratures of the night.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8943,
+      "latency_ms": 11.5
+    },
+    {
+      "review": "A great alternative perspective. Particularly appropriate for these times (even many decades after it was written), Hazlitt's Economics in One Lesson offers an alternative to the traditional Keynesian",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8762,
+      "latency_ms": 28.2
+    },
+    {
+      "review": "Save the money!. I got my second one of these recently. Now I keep a charger at work and another at home so I don't have to carry them back and forth. The one at home has been in use for a year now wi",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.6159,
+      "latency_ms": 23.7
+    },
+    {
+      "review": "My little Thomas fan loves this DVD!. My little Thomas fan loves any of the Thomas DVD's, no matter how many times he watches them. They are his favorite and I don't think that will change for a very ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.904,
+      "latency_ms": 24.0
+    },
+    {
+      "review": "Beautifully Done. The story of hester is by itself a master piece worthy of its highly commended status, however the annotated version really helps the reader understand the historical references and ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.7743,
+      "latency_ms": 13.7
+    },
+    {
+      "review": "Love KidKraft. I love this desk! In fact, I have two! One for my daughter and one for my son. They are beautiful, flawless and go together easily. They are sturdy and should last a many years. So happ",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9124,
+      "latency_ms": 20.2
+    },
+    {
+      "review": "The Best Yet!!!. Daughters of Darkness is the best yet!! I happened to pick it up by mistake in the Library and I Got hooked right away! I must have read it 50 times!! I loved the way Ash Tried to pro",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9058,
+      "latency_ms": 22.6
+    },
+    {
+      "review": "Really great 'baby book' for your 4-legged children. This is a wonderful book for anyone who loves their dogs as children. I bought one for our 3 year old adopted beagle, and am getting one for our da",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9066,
+      "latency_ms": 35.3
+    },
+    {
+      "review": "Rochelle explains It All for You. Wondering what the hell has happened to the moral aspect of modern American culture ? This book is a lucid, well argued explanation of the simple fact that we have be",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8747,
+      "latency_ms": 38.6
+    },
+    {
+      "review": "A Classic Worth Reading. My son had to read this for school and ended up really liking the story. It opened up dialog with us (his parents) about social situations, opinions and morality.I asked him a",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.9011,
+      "latency_ms": 21.5
+    },
+    {
+      "review": "Snug Fit. Great product for giving you that snug fit...it does become very uncomfortable around the waist line if worn to long. I really do like this item, the only BIG issue I have is the fact that y",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8106,
+      "latency_ms": 25.7
+    },
+    {
+      "review": "Dockers do the job.. This product was just what I was hoping for, and I had no problem with shipping. I highly recommend this product.",
+      "true": "positive",
+      "pred": "positive",
+      "confidence": 0.8826,
+      "latency_ms": 11.7
+    },
+    {
+      "review": "L.J. Smith has so many correct details..... I'm writng again to say that this book has so many correct details, and the other books in this series are correct too. For instance, Speelbound has it righ",
+      "true": "positive",
+      "pred": "negative",
+      "confidence": 0.5008,
+      "latency_ms": 32.8
+    },
+    {
+      "review": "Not her best............ Before I begin, let me just say that I absolutely love her Dark series. Those books are great. This one had potential, but it just fell flat. Her characters simply weren't dev",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7498,
+      "latency_ms": 24.4
+    },
+    {
+      "review": "Product didn't match the picture/description. Unless they sent me the wrong product by mistake, the foot cushion picture and description does not match the item delivered. I was under the impression I",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.5423,
+      "latency_ms": 34.8
+    },
+    {
+      "review": "So far, the worst book of one of my favorite authors. Having read all of Patricia Cornwell's books, I was very disappointed about her latest achievment. Draging the villain through 3 separate books pr",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6913,
+      "latency_ms": 24.0
+    },
+    {
+      "review": "Who Chooses Classics?. I don't see how this book gets so much attention as being \"one of the best novels ever.\" It's very short, and very boring. It's written in old english, which adds to the difficu",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7451,
+      "latency_ms": 33.7
+    },
+    {
+      "review": "a tragedy. This is a tragedy in two ways. Everyone dies at the end, and if you have to or choose to read this you will experience a tragedy.I can compare this book to a lobster.People say lobsters are",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8269,
+      "latency_ms": 34.6
+    },
+    {
+      "review": "Cheesy, dangerous gadget,. I've had the smaller model only about a month. Nevertheless, it is starting to go. It puts shards of sharp plastic in the food. (From searching the net on this, I find that ",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7318,
+      "latency_ms": 25.6
+    },
+    {
+      "review": "Worst Book I've Ever Read. This is simply the worst book I remember reading. I enjoyed a couple other Jack Higgins novels, so I happily picked this up. I'm sorry I did. It is nothing but action, which",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7162,
+      "latency_ms": 35.4
+    },
+    {
+      "review": "Sandler's worst!. I normally love Sandler's movies but this was just horrible. None of it flowed right, jokes were horrible vand stupid and just all around made no sense. Don't waste your time and mon",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.787,
+      "latency_ms": 18.6
+    },
+    {
+      "review": "no technical information. this book is a great over view of the joints used in building but has no information on beam spans or loads to actually build a building",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5333,
+      "latency_ms": 11.6
+    },
+    {
+      "review": "third one is now broken. I've now been through three of these cords. they seem to last around a year before just dying. The first two eventually had fatal connection issues with the piece that connect",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.5826,
+      "latency_ms": 32.7
+    },
+    {
+      "review": "Thick, dry and packed full of somewhat useful information. To read this book you need to be fully awake and have full concentration. This is not the type of book to bring to the beach. Though Richard ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6326,
+      "latency_ms": 30.7
+    },
+    {
+      "review": "itchy. I washed it before used it for the first time. The next day I wore it, I found my skin were itchy all over place on my stomach. And I feel that the heat on my body trapped on that.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5863,
+      "latency_ms": 22.5
+    },
+    {
+      "review": "Kindle edition has Black and white images?!. I've seen printed versions of this book and I've been thinking about getting it for a while. Never in my wildest dreams did I think the kindle version woul",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.67,
+      "latency_ms": 30.3
+    },
+    {
+      "review": "The worst rap I ever Heard. This is what is in the dictionary under wack. I can't belive that this many people bought this (...) The hot boys are just a fad like bellbottoms. (...) If you think this i",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7495,
+      "latency_ms": 29.5
+    },
+    {
+      "review": "Great plot, horrible writing!!!!!!!!. I believe that the plot of \"The Scarlet Letter\" could have been wonderful & something I would love to read, because the events are all such interesting ideas. I j",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5251,
+      "latency_ms": 38.2
+    },
+    {
+      "review": "hate this new format. I didnt realize when I ordered it that the type was turned side ways. I bought this as a gift, but not sure I will give it.I guess someone might like the format, but I dont.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.855,
+      "latency_ms": 19.0
+    },
+    {
+      "review": "Poor quality. I purchased this item to wear postpartum. I love how it fits and how well it smooths things out post baby. The major downside to this is the poor quality. The eye portion of about five o",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6415,
+      "latency_ms": 35.6
+    },
+    {
+      "review": "Uncomfortable!. It was really easy to put the Squeem on, but once it was on I couldn't wait to get it off!! It wasn't too tight or anything. The problem was that once I stood up straight it bunched up",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7997,
+      "latency_ms": 27.5
+    },
+    {
+      "review": "Still haven't received item. Bought for my mom for Christmas she loves this perfume and it does actually smell pretty good however I was supposed to recieve my order by the 20th at the latest.its now ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5798,
+      "latency_ms": 31.8
+    },
+    {
+      "review": "Ugh.. I read this book for AP English and had to do a blue-book assignment of it. The word \"ugh\" summarizes my experience.This book was written in the 19th century, and that's where it belongs. It wou",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.4952,
+      "latency_ms": 31.4
+    },
+    {
+      "review": "Way over my head!. This book was recommended by an instructor. I am new to this crazy pursuit of oil painting. My instructor called this her \"bible\" of color theory, but I honestly didn't understand m",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7001,
+      "latency_ms": 23.9
+    },
+    {
+      "review": "Absolute Waste of Time. My 11th grade English teacher tortured me with this morbid book and I can't say if I'll ever forgive her. Not only was this this book boring but Hawthorne unnecesary uses all s",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8646,
+      "latency_ms": 26.4
+    },
+    {
+      "review": "ive seen this before............ this is the worst comedy evericould tell this was an adam sandler movie right from the startit its a compilation of all the weak jokes from his past movies and albums,",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7677,
+      "latency_ms": 25.1
+    },
+    {
+      "review": "PLEASE DON'T BUY THIS CD!. I was truly disappointed in this album. The beats are all overused and unoriginal. The only thing that makes this album is Young Turk. He has the hottest rap out of all the ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5631,
+      "latency_ms": 30.8
+    },
+    {
+      "review": "Not good. The movie skips a few scene transitions and once it got to chapter 15 I couldn't watch any of the rest of the movie at all and the file online said it was 'like new.' The disc itself looks c",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7155,
+      "latency_ms": 24.2
+    },
+    {
+      "review": "ACTUALLY NO STARS for rating pf Funny People movie. Save your money. Your time can be MUCH better spent. This was one of the worse movies I ever sat through. Actually, I drifted away close to the end ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5016,
+      "latency_ms": 23.7
+    },
+    {
+      "review": "Piece of junk!. This would be a nifty little contraption if it wasn't for the fact that you can't change the top -- my primary impetus for buying it.I have a Handspring Visor and lost my stylus. I did",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6091,
+      "latency_ms": 40.8
+    },
+    {
+      "review": "Poorly Written. The style of writing leads me to believe that Higgins was under pressure to churn out a book to meet some editor's deadline. There was no character development. Critical turns in the p",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.754,
+      "latency_ms": 26.8
+    },
+    {
+      "review": "Very boring. I agree with the reviewer who is not the author. This is really a bad book. Totally not believable with no depth to the characters. I find it hard to believe this book is so popular overs",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7349,
+      "latency_ms": 32.4
+    },
+    {
+      "review": "Winning Cast, movie fell short. This movie was not an original concept. The jokes were lame, as were the performances. The writer and director disappointed the audience by using Adam Sandler, Seth Rog",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6226,
+      "latency_ms": 32.0
+    },
+    {
+      "review": "The Scarlett Letter. Written in old English. It was very hard to read as I had to think through most sentences to figure out what was being said.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6812,
+      "latency_ms": 15.5
+    },
+    {
+      "review": "Meaningless Drivel. I stongly dislike this book. There is too much meaninglessness to it. I can read seven pages for something that can be stated in one paragraph...it's awful. Only Webster would be a",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8709,
+      "latency_ms": 50.1
+    },
+    {
+      "review": "A long promo for the Thomas center(s). Unless I missed something, there are only one or two actual episodes on this DVD. The rest is a long commercial for the Thomas the Train centers and an ode to Ms",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6942,
+      "latency_ms": 26.5
+    },
+    {
+      "review": "Warning: You are not downloading Little Steven. I tried to download \"Forever\" by Little Steven & the Disciples of Soul, and through a very deceptive listing accidentally downloaded this very substanda",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8142,
+      "latency_ms": 44.6
+    },
+    {
+      "review": "Overrated Pretentious Trash. This novel is widely regarded as overrated. The plot is not that interesting, the writing style is torturous,the plot twists are predictable. It's a typical example of pre",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7007,
+      "latency_ms": 29.2
+    },
+    {
+      "review": "ASTOUNDING. It is astounding that anyone in this age can seriously recommend this book. It has no bearing on the world economy and is blatantly anti labor and anti government regulation. It is hopeles",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7699,
+      "latency_ms": 24.4
+    },
+    {
+      "review": "terrible movie. I used to be a fan of The Simpsons, but now much more of a South Park kinda guy, so it's near impossible to offend me really.. The humor was good in some spots, but overall I fould it ",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7525,
+      "latency_ms": 40.6
+    },
+    {
+      "review": "Gave me a waist, but just pushed my fat around. The product did what it was \"supposed to\" which was to give me a waist, but it kind of just redistributed my fat. My waist was super tiny, but above and",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.6044,
+      "latency_ms": 35.2
+    },
+    {
+      "review": "Inconsistent charging since purchase. I am on my third cord, after returning it twice (within one year!). This cord doesn't charge consistently, and so it makes your screen flicker, and music and vide",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7478,
+      "latency_ms": 25.3
+    },
+    {
+      "review": "Just a few.. These are the handful of tracks we hear over and over again. It's far from complete though.Missing such memorable tracks as \"sealed Door\", \"wings across time\" or \"At the Bottom of the Nig",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5244,
+      "latency_ms": 43.4
+    },
+    {
+      "review": "Disappointing and thin. I purchased this book expecting very good things. I found the plot very thin and predictable. There was very little suspense. It almost seemed like an abridged version of a boo",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7037,
+      "latency_ms": 24.8
+    },
+    {
+      "review": "Moron. How can anybody even smile with the kind of garbage Adam Sandler ALWAYS performs?This guy is just a moronic retard.DO NOT WASTE YOUR MONEY ON HIM.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7827,
+      "latency_ms": 14.4
+    },
+    {
+      "review": "paralyzing fear. The pain brought on by this archaicly verbose peice of literary kindling is so great that, while reading, I was greatly tempted to gouge out my eyes to prevent any future encounters w",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.855,
+      "latency_ms": 31.9
+    },
+    {
+      "review": "It wasn't very good!. This book was about witches and possession. I do not believe in those things. I am a Christian! I did not like this book very much at all! I don't think this is a good book for k",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7014,
+      "latency_ms": 27.1
+    },
+    {
+      "review": "If you can't say anything nice,. Well, that's no fun. Honesty is the best policy, right? This was the first of Patricia's books I had the displeasure to become acquainted with. I've tried reading anot",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7697,
+      "latency_ms": 35.5
+    },
+    {
+      "review": "Too small - NO RETURNS. I received this in the mail and followed the measurements on the site to get my size...when it arrived I could not fasten it as it was too small.........AND THERE IS NO REFUND.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8723,
+      "latency_ms": 34.9
+    },
+    {
+      "review": "Horrific forced reading. I will never understand why they force this book on school children, I'm sure there are many other \"classic\" stories that could be included in the curriculum.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8311,
+      "latency_ms": 12.7
+    },
+    {
+      "review": "See my article \"Jean Hill - The Lady in Red\" online. Since writing my review of JFK: THE LAST DISSENTING WITNESS in 1998, I have been able to have my 35-page article - \"Jean Hill -The Lady in Red\" - i",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.4444,
+      "latency_ms": 27.4
+    },
+    {
+      "review": "meh. There was very bad effects & evil characters that look like they stepped out of the 10 dollar costume halloween shop. If you are in to paying 1.99 for really cheesy stuff this is for you. The bad",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.8366,
+      "latency_ms": 23.4
+    },
+    {
+      "review": "Pretty pathetic people. The new \"stars of comedy\" make me miss the real ones. Why don't you try to learn from thy elders, like Mel Brooks, boys?Side note: Hollywood hasn't come up with real comedy sin",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6447,
+      "latency_ms": 30.3
+    },
+    {
+      "review": "Why so expensive??!. Why does this series need to be so much more expensive than most of the other TV shows? Especially considering these don't even have the original soundtrack. The first thing I thi",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5307,
+      "latency_ms": 36.6
+    },
+    {
+      "review": "Gardening lawn book. Four pages of the book was missing. It just happened to be the formulas that my husband needed. Fortunately he was able to copy our friends book. But I will hesitate to buy anothe",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8302,
+      "latency_ms": 14.8
+    },
+    {
+      "review": "Get to the point already. Too long. Re-read this and remembered how much Hawthorne's style irritates me. There is an interesting story within but he takes WAY too long to tell it.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8582,
+      "latency_ms": 13.1
+    },
+    {
+      "review": "just 1 peanuts movie!??!!. Honestly, if you knew about the blu-ray format and the capacity 1 disc has you should be appalled that there isn't the entire peanuts collection on 1 disc. This is such a ob",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7703,
+      "latency_ms": 34.2
+    },
+    {
+      "review": "not kindle ready. It's hard to put together any nice words about this transcription. It is not kindle ready, although it is textually complete. Should be a freebie.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7278,
+      "latency_ms": 13.1
+    },
+    {
+      "review": "An Album Minimalist in Genre AND Enjoyment. As a fan of minimalist electronica, I had to check this album out. I much prefer this end of electronica's spectrum versus sets or albums containing tracks ",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.8624,
+      "latency_ms": 35.9
+    },
+    {
+      "review": "Slow moving predictable story. The story is a very simple one but the action, so to speak, doesn't really happen until the final third of the book. It was a battle to get through the dry middle!Unfort",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7088,
+      "latency_ms": 26.5
+    },
+    {
+      "review": "Helps . . . With reservations. This pillow is incredibly helpful for people who have difficulty getting comfortable in bed because it affords a variety of positions to relieve painful areas. But getti",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.7941,
+      "latency_ms": 38.2
+    },
+    {
+      "review": "Bones. This product does suck you in Great !! But the bones in here tore back back up, I had all kinds of bruising when I took this off after wearing it all day, they need to make one smooth with out ",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.6468,
+      "latency_ms": 21.9
+    },
+    {
+      "review": "Title is a Scam. When someone is intentionally deceptive in order to sell books or to capture an audience this lowers the value of what they have to say to absolute zero.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8226,
+      "latency_ms": 13.5
+    },
+    {
+      "review": "Don't Trust the Images. Dockers are Dockers, so that's not the problem. Just be sure you don't trust the images if you choose to buy these via Amazon. \"Cafe,\" for example, should be \"Coffee.\" Despite ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7513,
+      "latency_ms": 32.6
+    },
+    {
+      "review": "I don't get it.. I was assigned this book when I was a sophomore in high school (22 years ago). I couldn't get through it; the Cliff Notes version help me pass the test. I found it turgid and laboriou",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8722,
+      "latency_ms": 34.6
+    },
+    {
+      "review": "unfinishable. A classic? Hardly. In it's time this book may have ruffled feathers but these days it's a struggle to get through. Hawthorne's writing style is dreary and dreadful; if captivating reader",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6763,
+      "latency_ms": 20.5
+    },
+    {
+      "review": "Does not have true plumeria scent. I used to live in Hawaii. Plumerias were abundant, both growing and leis. I was excited to have that scent again in a lotion. The lotion itself is your average body ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5356,
+      "latency_ms": 26.9
+    },
+    {
+      "review": "Yes, I was another victim who had to read this for school. Ok, when I first started this book I thought it was the dumbest thing and I could not belive this was a classic! (I still can't) After a few ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5562,
+      "latency_ms": 32.4
+    },
+    {
+      "review": "The okay book. Hawthornes The Scarlet letter is an okay book. It has an okay plot and okay characters, but the book is not one for teens of the 90's. I had to read this book for my English teacher and",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.6978,
+      "latency_ms": 33.5
+    },
+    {
+      "review": "Cartoon Arab-Scottish Villain. I had the rare experience of giving up on a novel after only a couple of chapters when trying to read Edge of Danger recently, but Higgins managed to pen a book so lame ",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.4863,
+      "latency_ms": 32.7
+    },
+    {
+      "review": "Inappropriate for young children. In two of the episodes, the word \"shut up\" is used. My son is three years old and instantly picked up on it, repeated it, and told me it was a bad word, but that Jame",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.807,
+      "latency_ms": 26.4
+    },
+    {
+      "review": "Writing on autopilot. After reading this book, I felt guilty for having purchased it, because that contributed to its best-seller status. (Oops, maybe not; the way it works now, it was a bestseller th",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6984,
+      "latency_ms": 30.7
+    },
+    {
+      "review": "The Worst!. A complete waste of time. Typographical errors, poor grammar, and a totally pathetic plot add up to absolutely nothing. I'm embarrassed for this author and very disappointed I actually pai",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8368,
+      "latency_ms": 18.0
+    },
+    {
+      "review": "Itten, the elements of color. The information in this book is interesting, but the color in the color wheels and all color samples are very pale and washed off. Very disappointing.If you need to use t",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7331,
+      "latency_ms": 19.8
+    },
+    {
+      "review": "Save Yourself. I agree 100% that Hawthorne was a brillaint writer. But this book was horrible. A simple phrase of action (Hester walking down the street) would be 4 pages of reflection. I read alot an",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8527,
+      "latency_ms": 33.3
+    },
+    {
+      "review": "Very poor quality.. The screen arrived in a cardboard box that was pretty beat up. The screen itself is very lightweight, very cheesy looking. The \"finish\" was worn across the entire top of the screen",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.578,
+      "latency_ms": 24.4
+    },
+    {
+      "review": "Too scattered, too shallow. Although this might be a good book to introduce issues in technical writing to someone considering the field, it is not useful if you want anything more than a broad overvi",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7033,
+      "latency_ms": 34.5
+    },
+    {
+      "review": "Wrong item sent.. I got the shippment quickly. But wrong items was sent. I have to return it to the seller. I got the refund pretty quick, but only for the value of product. I spent about &10 for two ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.821,
+      "latency_ms": 21.6
+    },
+    {
+      "review": "Oh god kill me now, this book is BAD.. This is my mom's account. I had the pleasure of reading this book in English this year. I can honestly say, it is the single most boring book I've EVER read. You",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8579,
+      "latency_ms": 36.8
+    },
+    {
+      "review": "over-simplified diatribe. Wow, this one is really out there. Only Any Rand and Ron Paul, who know nothing about economics, could recommend this book. For example, consider these laughable claims, that",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.4917,
+      "latency_ms": 36.3
+    },
+    {
+      "review": "SOPHMORIC. I REALLY DIDN'T CARE FOR THIS BOOK AT ALL. I FOUND BOTH THE WRITING AND THE STORY LACKING AND UNIMAGINATIVE. I BOUGHT THIS BOOK WITH AN INTEREST IN FANTASY THAT REVOLVES AROUND ELVES OR FEY",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8043,
+      "latency_ms": 31.5
+    },
+    {
+      "review": "Edge of Danger. 1 star - only because that's the minimum.This book proves the famous can publish anything.",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.8736,
+      "latency_ms": 10.8
+    },
+    {
+      "review": "I must say. that I don't like this book. I read it in high school, when all I did (and still do) was read everything I could get my hands on. I love literature, I am even majoring in creative writing ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8045,
+      "latency_ms": 35.6
+    },
+    {
+      "review": "So what is the sizing?. I ordered a 3X, because that's the size that the website said to order, it came and lacked about 8 inches closing....so I looked at the package and it says I should have ordere",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6363,
+      "latency_ms": 35.7
+    },
+    {
+      "review": "An Ever expanding story followed by same ol same ol. Very disappointing read. Starts with her tale of what she saw in 1963 then devolves into another \"MASSIVE GOVERNMENT CONSPIRACY\" work. Offering no ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6741,
+      "latency_ms": 33.4
+    },
+    {
+      "review": "1 star, since there's no \"zero stars\" available. I can't believe the reviewer who turned this off after the first 30 minutes. How in the world did anyone watch this for 30 minutes? So I only watched 1",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5843,
+      "latency_ms": 32.4
+    },
+    {
+      "review": "It wasn't good. I starting reading this book with great enthusiasm for my 11th grade English GT class's summer homework. I read and read, and I just started hearing names of people who, didn't make se",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.5417,
+      "latency_ms": 34.5
+    },
+    {
+      "review": "a let down. This books just didn't do it for me. I enjoy PC but this book. Seemed too easy. Things just happend, people just called. In fact, I think this books had some bad editing. I felt as though ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7924,
+      "latency_ms": 36.3
+    },
+    {
+      "review": "Sizing is Ridiculous. I measure as a Small and the Small and Medium did NOT fit. Update: I ordered a Large and wore it for 2 days and it stretched too much. I am not sure this will help, but I have wo",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8218,
+      "latency_ms": 26.6
+    },
+    {
+      "review": "Not my idea of a good read. I've read worse. But it takes a lot of mental energy to wade through all the commas and figure out the point of each paragraph. It seems a lot longer than 240 pages. I woul",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7639,
+      "latency_ms": 22.5
+    },
+    {
+      "review": "BEWARE!!. Bought this camera for Christmas. Had her open it first so she could film the nights party & NO TAPES ARE INCLUDED! Of course all stores are closed Christmas day so the thing is USELESS unti",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8163,
+      "latency_ms": 22.3
+    },
+    {
+      "review": "Not the best. I bought both this and lonely planet and have used lonely planet more because this book is full of pictures but doesn't give you all the info you need. Also, I ended up buying each indiv",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.7397,
+      "latency_ms": 20.5
+    },
+    {
+      "review": "The Not so Funny People. I love Leslie Mann and Eric Bana, but this is probably one of the worst movies I've ever seen! It was like 3 or 4 movie/plots/stories put together and just kept climaxing then",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6515,
+      "latency_ms": 30.4
+    },
+    {
+      "review": "A Tedious Read. I hate Hawthorne's style of writing. It's over-bloated and self-indulgent. I wish he'd just get to the point and stop blabbering on and on. The plot of the book seems like a modern mel",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6684,
+      "latency_ms": 32.5
+    },
+    {
+      "review": "My Son finds it annoying. My 2 year old son is huge Thomas fan. This DVD has long introductions to each story in which children and adults are interviewed - my son couldn't care less. He just wants to",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.681,
+      "latency_ms": 25.6
+    },
+    {
+      "review": "Nasty People! Nasty Film!. Entertaining in places but spoilt by lots of crudeness and dirty talk that degrades woman. In the end I found nothing memorable or funny about this film. Sad for Adam to see",
+      "true": "negative",
+      "pred": "neutral",
+      "confidence": 0.647,
+      "latency_ms": 19.8
+    },
+    {
+      "review": "waste off money. this is not waterproof.its GARBAGE where batteries go in broke,while trying to adj.DO NOT BUY.you turn the end to control it,that loosens the battery cover where water gets in so how ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.821,
+      "latency_ms": 20.7
+    },
+    {
+      "review": "Mind numbing. This game makes you do the same things over and over, it never holds my son's attention long enough to get to the next level. There is no choice of games you have to do every thing in or",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6959,
+      "latency_ms": 22.4
+    },
+    {
+      "review": "Losing her edge?. I loved Patricia Cornwell's first five novels; sadly, her sixth loses its edge.. I wanted to enjoy it.. but the plot labors on.. and I had a hard time finishing a book I couldn't wai",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.6557,
+      "latency_ms": 25.9
+    },
+    {
+      "review": "EXTREMELY SHALLOW. This book has no plot, and is so absolutely predictable that I had to put it away without finishing. Sean Dillon's character is getting so tired and his invincibility is sickening. ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.773,
+      "latency_ms": 32.6
+    },
+    {
+      "review": "Book in great condition, but took 20 days to get it. This book was brand new when I received it. However, it did not arrive for 20 days after I ordered it.",
+      "true": "negative",
+      "pred": "positive",
+      "confidence": 0.6898,
+      "latency_ms": 14.0
+    },
+    {
+      "review": "Don't pay for this on the Kindle. Unless you have the correct size font, you will have a difficult time reading this book on the Kindle. It is not set up to have the text wrap correctly and therefore ",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8719,
+      "latency_ms": 21.2
+    },
+    {
+      "review": "Not for iBook G4. Be careful. The box packing for this says it works with a PowerBook G4 or an iBook G3. It will not work for a iBook G4. The Amazon product page does not make that clear.",
+      "true": "negative",
+      "pred": "negative",
+      "confidence": 0.8103,
+      "latency_ms": 19.5
+    },
+    {
+      "review": "A good story but not great. I love Dean Koontz. This was not my favorite. In fact I was rather unhappy with the whole book. Now don't get me wrong he is a great writer but this book bored me. I don't ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7031,
+      "latency_ms": 19.8
+    },
+    {
+      "review": "broken. When the tool set arrived it was okay..smaller than I thought but mostly one of the tools was broken so it made the set not acceptable.",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.637,
+      "latency_ms": 14.4
+    },
+    {
+      "review": "Nothing special! Borderline on boring!. Not sure why this song was a hit.Yes, it has the hooks and the pop/r&b; arrangement. But vocally, it was the most boring delivery that I have heard from a top 1",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7286,
+      "latency_ms": 40.4
+    },
+    {
+      "review": "Good Unit. I've already dropped it, (unit was off) and it's fine. It's a little larger than I expected, so is more of a pocket unit than an armband or clip-on. The creative software is not too good - ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7452,
+      "latency_ms": 38.2
+    },
+    {
+      "review": "This is Great! Get Real.... Okay, let's face it, it's all about time and there's just too little of it. With this cookbook, not only can you recapture some of that time but you can also serve up some ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5743,
+      "latency_ms": 38.7
+    },
+    {
+      "review": "Ok, but definetly not great. This 2nd one is definetly not as good as the first one. I'm big into movies and always buy blu-ray, especially when it comes to animated stuff. Younger kids might like it ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8491,
+      "latency_ms": 31.9
+    },
+    {
+      "review": "Guys miss this one. Gentlemen miss this movie. As a married man I am consigned to the fact that I must watch certain movies that are geared towards the ladies, I am okay with that. Having suffered thr",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.6118,
+      "latency_ms": 31.8
+    },
+    {
+      "review": "A BAD ANIME. I can say that this a bad anime.the animation quality is average and the story is dull from start to finish.There isnt any heat or excitement and it doent have a real ending.",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6031,
+      "latency_ms": 14.3
+    },
+    {
+      "review": "lack of a good rap voice and too many sample s. altough some of the music is not bad and the lyrics aren't all that stupid the ridiculois voice of C-Murder make this album not an atractive hear, besid",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.841,
+      "latency_ms": 20.2
+    },
+    {
+      "review": "Cone Boobs. I have the Le Mystere Safari T-Shirt Bra and love it, but this bra is just not as good. The quality is not great; the fabric is harsh and the cups of the bra are very stiff. When I tried i",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6438,
+      "latency_ms": 36.7
+    },
+    {
+      "review": "Good value but not great absorbtion. My daughter lives down the street from us with her husband and we keep Tricia, our grand-daughter, quite often. Joe and I love Amazon - he buys almost every tool h",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8422,
+      "latency_ms": 32.1
+    },
+    {
+      "review": "Among the Best Ever. Brilliant. If you have not read this book, read it. If you can only read one book your entire life, make it this one. It is the masterpeice of the modern era from the man I would ",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.9041,
+      "latency_ms": 20.4
+    },
+    {
+      "review": "Trash...utter trash. After getting about five minutes into this movie, I was wondering why I should care. I was wondering the same thing at fifteen minutes, half an hour, an hour, and all the way thro",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.639,
+      "latency_ms": 26.7
+    },
+    {
+      "review": "Very good. I ordered 2 sets of samples. Everything came in time, & I was very pleased. The seller even included a ton of free extras too, which I was very happy about :]. The products themselves are '",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.631,
+      "latency_ms": 38.3
+    },
+    {
+      "review": "It could be better. Currently, there are no wholes throughout the bed. But, for some reason when I wake up. The bed is already out of air. I only weigh 120lbs. I don't understand why it does that. Ple",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5395,
+      "latency_ms": 28.5
+    },
+    {
+      "review": "Super stuff for pop-jazzy-electro tribal lovers. This band is great. I loved it since I first listened to it. You just need to listen to the first 2 minutes of the first song on the CD, and you will f",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.7726,
+      "latency_ms": 44.4
+    },
+    {
+      "review": "It's okay.. It's okay. It's the convenience of having the diapers delivered to home, and at a reasonable price. The diapers are okay, though a tad smaller than other equivalent size 3 diapers. Otherwi",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6016,
+      "latency_ms": 27.4
+    },
+    {
+      "review": "Allegorical Fiction At Its Finest. The book tells of the fascinating rise and fall of the Buendia family. It is not really all that long, never dull, and clearer than the most transparent crystal (alt",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.7859,
+      "latency_ms": 51.5
+    },
+    {
+      "review": "Bad Printing Choices. I am not commenting on Jules Verne's writing, but rather the format of this particular edition. From the outside, this edition is very nice; as other reviewers have noted, it's g",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.4887,
+      "latency_ms": 51.1
+    },
+    {
+      "review": "Abandoned this one. This is about the trials and tribulations of a multigenerational family.We found it disengaging and rather tedious. It went on and on without getting far at the beginning and we st",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7711,
+      "latency_ms": 46.7
+    },
+    {
+      "review": "One of the worst ever.. This stands out in my mind as one of the biggest wastes of time I ever spent watching a movie. The name of the movie is Rosemary's Baby, the whole movie centers around awaiting",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.6235,
+      "latency_ms": 38.9
+    },
+    {
+      "review": "Classic Marlon Brando Movie...... I read the mixed reviews for this movie, so I had to comment. This movie is classic. The storyline may offend some people, but come on. Life is rocky, and believe me,",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5267,
+      "latency_ms": 26.3
+    },
+    {
+      "review": "OK if you have an unlimited budget and dream. Lots of great ideas for those with unlimited budgets. Many of the suggestions are not within the economic means for those thinking about setting up a shop",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7728,
+      "latency_ms": 36.2
+    },
+    {
+      "review": "Less than average product. The product works fine, but the quality of the material is pretty cheap. It doesn't have a nice feeling while holding it in your hand.On top of this, the battery compartment",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.845,
+      "latency_ms": 31.3
+    },
+    {
+      "review": "Not her best............ Before I begin, let me just say that I absolutely love her Dark series. Those books are great. This one had potential, but it just fell flat. Her characters simply weren't dev",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7498,
+      "latency_ms": 28.8
+    },
+    {
+      "review": "Finally, a decent horror movie. This had my heart in my throat from the verybeginning. It's about time they made a horror movie with strong female leads that doesn't degrade them or use them as eye ca",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.836,
+      "latency_ms": 24.6
+    },
+    {
+      "review": "Where did the tutorials go?. I played the game through all levels of the tutorials and advanced to 'one-on-one' with D. Trump... I did okay. Then I didn't play the game for while and when I went to pl",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.7678,
+      "latency_ms": 33.8
+    },
+    {
+      "review": "Dougal and Gammer are easily the best on this album. There's some very well mixed music on these lovely 3 CDs, and as an avid HH fan I'm in love. Dougal and Gammer (disc 2) are almost overkill in how ",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.592,
+      "latency_ms": 34.8
+    },
+    {
+      "review": "Maybe good for beginners. Paxton Quigley's book is a compliation of parts of other books on firearms self protection. It's a bit overdone, and probably would scare the average woman thinking about pro",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7811,
+      "latency_ms": 36.3
+    },
+    {
+      "review": "I second that!. I agree with the review dated March 14, 1999. I'd also like to add that as of Chapter 2, I've found at least three misprints in the solutions manual. Normally, these types of mistakes ",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5933,
+      "latency_ms": 24.0
+    },
+    {
+      "review": "Fine Summary. This is a great primer that should be read in all schools. Hazlitt does not deal in economic details here. Intead, Economics in One Lesson covers more useful ground for the average perso",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8183,
+      "latency_ms": 34.1
+    },
+    {
+      "review": "Just kidding around. This book was hilarious. I read it yesterday, and I am still laughing my Asimov. Get it? Hahahaha. Huh. Okay. Nevermind.",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5167,
+      "latency_ms": 13.2
+    },
+    {
+      "review": "Does the job that I expected. I received two of this brand of mug warmer. I only ordered one, but I finally resolved the issue with Ace Hardware.I love this Mr. Coffee mug warmer. I have one at work a",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8797,
+      "latency_ms": 23.9
+    },
+    {
+      "review": "Solid Player without the \"iPod Mystique\". I purchased this player over 4 months ago. I read all of the reviews and I was aware of the pros and cons going in. This player is slightly thicker than the s",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8415,
+      "latency_ms": 36.0
+    },
+    {
+      "review": "Fine film ruined by voice-overs on this DVD.. A solid documentary with interesting new footage and invaluable testimony from participants in the battle and related events is ruined by loud voice-overs",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7632,
+      "latency_ms": 36.3
+    },
+    {
+      "review": "CRAPPY FAN, DECENT LIGHT..... I ordered this fan for a recent camping trip, and never got to use the fan. I had it set up at the foot of my inflatable mattress, and one of my kids tipped it over accid",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7913,
+      "latency_ms": 32.9
+    },
+    {
+      "review": "Decent book, but definately not Hanry David Theraou. It was a good book to read given that is a classical in American literature but I much rather like Theraou's book Walden.",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.792,
+      "latency_ms": 13.4
+    },
+    {
+      "review": "Just right!. ...meaning not too hot not too cold- mfg. knows what they're doing in the design... not the self-appointed \"critic geniuses\" spouting off left and right here.. Yes, put a coaster or lid a",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6058,
+      "latency_ms": 35.1
+    },
+    {
+      "review": "A Moment of Zen. This is supposed to be an artsy movie about the yakuzas and their activities in America. However, it`s not more than an average, empty thriller that`s neither exciting nor funny, let ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8132,
+      "latency_ms": 35.6
+    },
+    {
+      "review": "Just so-so. I ordered these tights, mainly for the price and the well-known brand. I am 5'5'' and about 130 pounds... average woman's height and weight and ordered a medium. They are very long - proba",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6969,
+      "latency_ms": 41.7
+    },
+    {
+      "review": "About as scary as a \" Facts of Life \" reunion special. The Haunting is incredibly mediocre, even to the point of making you laugh when you should be screaming. The plot is weak, the script is empty, a",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.795,
+      "latency_ms": 44.2
+    },
+    {
+      "review": "HPL would be spinning. This book is okay, but Brown Jenkin is not what I saw when I read HPL's \"Dreams in the Witch House.\"It's not a good Masterton book, either. The last 30 pages seem as if he had t",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.706,
+      "latency_ms": 28.4
+    },
+    {
+      "review": "Absolutely horrible. Movies don't get much worse than this one, folks. The plot was poor and the acting was terrible. The scene near the beginning with the two ladies prancing around the house was inc",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.4934,
+      "latency_ms": 43.0
+    },
+    {
+      "review": "Timeless and just Awesome!. I love Felt! great band and I have all of their recordings. This one is probably my favorite in their whole catalogue. Dreamy Psychedelic and heartbreakingly beautiful in p",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8708,
+      "latency_ms": 28.2
+    },
+    {
+      "review": "TeddyBears. Okay...........I'll admit that The TeddyBears got a good hit in \"CobraStyle\".........however, someone out there please reference me back to a hit from the 60's or 70's that has the same be",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7634,
+      "latency_ms": 34.0
+    },
+    {
+      "review": "Great way to waste six hours. Warning! Spoiler!The secret that motivates reading this book is that Mary has given the world a message from God and the Catholic Church has kept it hidden. The secret: G",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.6754,
+      "latency_ms": 29.3
+    },
+    {
+      "review": "Fleetwood Mac Rumours. If you want to hear music, don't purchase this video. Each song is quickly interrupted with current interviews of band members talking mostly of their failed romantic relationsh",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.4976,
+      "latency_ms": 31.8
+    },
+    {
+      "review": "I'm shocked this is even from Brian McKnight. I just got the CD, browsed through the tracks in my car and can honestly say not one song sounded decent. I love his music and was waiting to get this one",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.4851,
+      "latency_ms": 21.4
+    },
+    {
+      "review": "Stargate Continuum. Not bad but could have been a lot better. Overall it was dissapointing. They could have at least noted what happened to the Ori after leaving fans hanging with the series ending. N",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6969,
+      "latency_ms": 18.0
+    },
+    {
+      "review": "Not great. I guess these would be good if you had foot surgery and wanted to place something lose and protective over bandaging, but not for under a boot cast. I was under the impression these would b",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8261,
+      "latency_ms": 25.3
+    },
+    {
+      "review": "A decent book, I see somwhat related to 1984. It's a book that basically tells of censorship. It is well written and makes you think about censorship today.",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8193,
+      "latency_ms": 13.1
+    },
+    {
+      "review": "Average Shirts. Shirts of average quality...worth about what I paid for them, $10.00.....built in collar stays...",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.775,
+      "latency_ms": 11.7
+    },
+    {
+      "review": "It Truley Is A Remix. I have always been a Destiny's Child fan. This CD is so nice, and I happy that the songs are really remixed. Michelle also has a hot new single! I can't wait for her CD to come o",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.7964,
+      "latency_ms": 23.4
+    },
+    {
+      "review": "Dorky, fun entertainment. Is the movie great? No, not if you are a die hard Mario Brothers fan who grew up with it in the 80's. Or isn't it? I saw this as a kid and was bummed by how not like the game",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6454,
+      "latency_ms": 35.8
+    },
+    {
+      "review": "I expected more Brian - this is a disappointment !. This CD lacks effort. Only one or two decent tracks, the rest of the tracks leave a lot to be desired. A real downer.",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7298,
+      "latency_ms": 13.1
+    },
+    {
+      "review": "okay. I liked the book but it wasn't one of my favorite reads. It ended up being a good book overall.",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.4782,
+      "latency_ms": 11.4
+    },
+    {
+      "review": "Mediocre Material for a Stellar Singer. What should we do with Clay Aiken's amazing vocal abilities and unique style? Apparently, tone him down, give him barely passable bubble gum pop ballads (with l",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7473,
+      "latency_ms": 22.9
+    },
+    {
+      "review": "I made better recordings in my garage. I was expecting a lot more when I bought this CD. I was expecting studio quality demos similar to Metallica's Garage Days. This CD is litterally a compilation of",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5535,
+      "latency_ms": 19.9
+    },
+    {
+      "review": "THE BOMB. I THINK THAT THIS ABLUM IS THE BOMB. I BOUGHT THIS ABLUM ABOUT 2 MONTHS AND LISTEN TO IT ALL THE TIME AND FOUND MANY SOUNDS THAT I HEAR ON THE RADIO. BUT THE ONE THAT I NEVER HEARD WERE ALSO",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.7892,
+      "latency_ms": 32.6
+    },
+    {
+      "review": "not very impressed. i bought the DVD because i though they wouldn't just give the blue collar name to anyone... turns out they did.Caparulo was okay but the other 3 guys were not as good as i would ha",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6896,
+      "latency_ms": 22.1
+    },
+    {
+      "review": "Very ordinary performances, mediocre video quality. The musical performances here are quite dull. There is nothing wrong about them except that the musicians seem to be simply doing their job and noth",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.752,
+      "latency_ms": 23.3
+    },
+    {
+      "review": "Mixed Bag. This compilation contains some of the best jazz guitar ever in songs like Scotland I, the Jam with Albert and Yin. Unfortunately it also digs up silly tripe like Eyes of Love, Planet End, A",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8198,
+      "latency_ms": 22.9
+    },
+    {
+      "review": "A must for Fortean buffs. Believe It or Not? Well, frankly, I don't believe all of it, though I'm sure those folks in West Virginia saw something mighty interesting. But in all the lengthy annals of F",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5587,
+      "latency_ms": 34.4
+    },
+    {
+      "review": "Pampers size 2, 246 count. Good price but no wet indicator. It's thinner than the new diapers with wet indicator. Would have preferred to have the indicator, but for the price it's not bad",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6681,
+      "latency_ms": 14.8
+    },
+    {
+      "review": "mediocre. i didn't care for this cd. it is a Christian goth group that has disappeared and I can see why. not anything special. if you are a collector of christian goth, a friend of the bands, or a fa",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7676,
+      "latency_ms": 20.2
+    },
+    {
+      "review": "I could have written a better book myself. The author's alleged PhD is quite polemical. I think it averaged an error per page or so. For the 15 minutes I glanced it over, I think I became dumber.",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.7995,
+      "latency_ms": 21.1
+    },
+    {
+      "review": "Not so thrilled. The tray was thin and cheap looking and although it was supposed to have rocks included, there were none in the box. The only part of it that was half-way decent was the rakes. Becaus",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5914,
+      "latency_ms": 24.0
+    },
+    {
+      "review": "excellent product, but has a short range.. excellent product, but has a very short range of reception and battery life is short lived. You have to adjust the tuner several times before obtaining a goo",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.5334,
+      "latency_ms": 21.9
+    },
+    {
+      "review": "Not bad, not the best. I am a HUGE fan of the Transformers movies, but I have to say that this is not the best of the series. As much as I am not a Megan Fox fan, they should have kept her. I also tho",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6552,
+      "latency_ms": 24.9
+    },
+    {
+      "review": "MANILOW \"WANNABE\". Okay, Clay Aiken may be a dork in person, but the fact of the matter is he won runner up in American Idol and can sing, and that's about it.When I saw him on American Idol, I was di",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6449,
+      "latency_ms": 35.5
+    },
+    {
+      "review": "Great if you like confusion..... This book frustrated me to no end. While I can respect the endeavor to write a book from the perspective of prehistoric man, it just didn't follow through. While Goldi",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8022,
+      "latency_ms": 26.1
+    },
+    {
+      "review": "Great item. I love this machine. It makes perfect rice. I've tried long grain white, short grain brown, mixed, and steel cut oats too. Always perfect!",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8914,
+      "latency_ms": 12.1
+    },
+    {
+      "review": "Exciting War Story? (You wish!). Summer of My German Soldier is an average book. It is kind of romantic so I didn't like it that much. But that's just me. When my reading teacher first introduced this",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5437,
+      "latency_ms": 35.3
+    },
+    {
+      "review": "You GOTTA be kidding!!!. Okay, I brought this home, looked it over, and IMMEDIATELY took it back. This is supposed to be for a KID, right? I DON'T THINK SO, at least not mine. I purchased it for my 8 ",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.7014,
+      "latency_ms": 38.4
+    },
+    {
+      "review": "so-so. i think the love brids are hyping this movie up, this is a review from someone that doesnt by into the love movie Douche thing: Not adams best, very repeatative movie. I dont think he will ever",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.6242,
+      "latency_ms": 25.0
+    },
+    {
+      "review": "way too sappy!. this book was okay, but it wasn't the best book i have ever read. its basically a cheesed-up romance novel about a 12-year-old. its a bit unbelievable and unrealistic, but it got excit",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7669,
+      "latency_ms": 23.9
+    },
+    {
+      "review": "Boring. Gorecki, as usual, is striving for profound angst, but for the most part this Quartet just comes across as boring. The second and fifth movements are terrible. The first movement develops some",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7088,
+      "latency_ms": 30.1
+    },
+    {
+      "review": "Uh, well.... Really mediocre romantic comedy featuring a brown-haired Helen Hunt before Mad About You and As Good As It Gets, Kelly Preston before her career surge, and Andrew McCarthy on the downside",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8007,
+      "latency_ms": 24.1
+    },
+    {
+      "review": "play-doh. not bad but be warned you need to buy extra play-doh at local store before handing it to the kid's",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6278,
+      "latency_ms": 15.0
+    },
+    {
+      "review": "The picture quality was AWFUL!!!. Being a collector of period pieces, I have never watched a collection with such aweful picture quality. Do not buy this collection if you want mediocre or good qualit",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6914,
+      "latency_ms": 15.5
+    },
+    {
+      "review": "Doesn't live up to its potential. . .. The Third Secret is a very good story; unfortunately its written in a mediocre manner. The plot is shallow and poorly developed and at times, obvious. Its more a",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5843,
+      "latency_ms": 34.9
+    },
+    {
+      "review": "okay for the price. I used it for a week and half and it seem to work as described. I don't know how well its going to work for over a long period of time, but it is cheap so it probably wouldn't last",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6542,
+      "latency_ms": 32.3
+    },
+    {
+      "review": "A decent enough OSV. Aside from a few tracks, namely the memorable airship theme and few others, the CD isn't much more than a novelty; something to add to your collection. But look at it this way - i",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8412,
+      "latency_ms": 22.4
+    },
+    {
+      "review": "Awesome Air Bed. This is used for when my older son has friends stay over night. It's easy to set up, and comfortable. Does the job flawlessly.",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.8469,
+      "latency_ms": 13.2
+    },
+    {
+      "review": "OK. I really like songs for a new world and the last 5 years. was excited to purchase this disc but was kinda disappointed. lacks the edgy variation and creativity of the others. not bad and the cover",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8635,
+      "latency_ms": 21.2
+    },
+    {
+      "review": "really love it.. Does the job and I feel the tightness. Thanks for making a change that is a big difference for me. I would recommed others to buy it.",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.891,
+      "latency_ms": 12.2
+    },
+    {
+      "review": "Good price, good night.. Decent product. I had to sleep on it for a few nights and I survived. It is comfortable enough to pass out on It stayed inflated the whole night and deflates well. It comes wi",
+      "true": "neutral",
+      "pred": "positive",
+      "confidence": 0.4918,
+      "latency_ms": 21.6
+    },
+    {
+      "review": "Yawn. I love Stargate but both movies have been average at best,Continuum is just not very engaging the actors all seem like they would rather be someplace else, the core cast is woefully under used a",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8252,
+      "latency_ms": 22.7
+    },
+    {
+      "review": "A great soundtrack for a great anime, at a ridiculous price.. This is a top quality soundtrack, the songs themselves range in genre, but expect a lot of guitar and techno intermixed. In my opinion, th",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7705,
+      "latency_ms": 21.4
+    },
+    {
+      "review": "Crazy About Alabama in Arizona. Crazy In Alabama is engrossing and entertaining with the excellent re-creation of the mid-60's with respect to cars, fashions, and the civil rights movement.All actors ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5836,
+      "latency_ms": 35.1
+    },
+    {
+      "review": "not bad at all. I like using it. Only complaint is the straps to synch your bike are way too long and get in the way",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7084,
+      "latency_ms": 11.2
+    },
+    {
+      "review": "Mediocre. I have been reading Moorcock's work ever since I encountered his creations while playing RPGs in the early Nineties. Suffice it to say, Moorcock seems to have nothing more to add to his Chao",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6798,
+      "latency_ms": 32.3
+    },
+    {
+      "review": "Very poor quality.. The screen arrived in a cardboard box that was pretty beat up. The screen itself is very lightweight, very cheesy looking. The \"finish\" was worn across the entire top of the screen",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.578,
+      "latency_ms": 26.8
+    },
+    {
+      "review": "I havent seen a better Beat Takeshi Movie. I'll keep this short, I saw Fireworks and thought it was average at best, saw pieces of that kijuro or whatever its called with the little kid in it, that on",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7845,
+      "latency_ms": 35.5
+    },
+    {
+      "review": "Just Okay. This book is 'just okay.' I came away from reading the book not knowing too much about the Amish. Sue prefers to keep most of the information to herself. She does, however, make sure she ge",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7011,
+      "latency_ms": 41.6
+    },
+    {
+      "review": "Left me cold. Okay, I'll admit it was sort of scary, but it got on my nerves how completely unlikeable the characters were. When one of the humans fell prey, I thought 'so what'...when one of the vamp",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.5711,
+      "latency_ms": 35.3
+    },
+    {
+      "review": "Alot of decent pictures and instructions. As a student of jiujitsu i understood alot of the moves but i found that without previous knowledge these pictures and instructions were difficult to understa",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.7284,
+      "latency_ms": 20.6
+    },
+    {
+      "review": "So-so. I thought \"Tubthumping\" was pretty good,no,really cool,but the rest! UGH! Those songs were a complete BORE. If you are planning on buying this CD, I strongly advise you not to. Buy a single of ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.6376,
+      "latency_ms": 28.7
+    },
+    {
+      "review": "interesting, but.... it's an interesting idea to have a operatic female vox in a metal band; however, her voice is mediocre (you'd know it's true if you know some names from the opera genre), and the ",
+      "true": "neutral",
+      "pred": "neutral",
+      "confidence": 0.8501,
+      "latency_ms": 28.2
+    },
+    {
+      "review": "Don't waste your money. I bought this game at a reduced price and still feel like I got ripped off. The controls in the PC version are an absolute nightmare and make what could have otherwise been a d",
+      "true": "neutral",
+      "pred": "negative",
+      "confidence": 0.5387,
+      "latency_ms": 34.8
+    }
+  ]
+}
